@@ -1,0 +1,7 @@
+SET SERVEROUTPUT ON
+
+DECLARE 
+    v_hworld VARCHAR(20):= 'Hello World';
+BEGIN
+    DBMS_OUTPUT.PUT_LINE(v_hworld);
+END;
